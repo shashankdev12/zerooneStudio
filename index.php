@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="//gmpg.org/xfn/11">
-	<title>SquadForce &#8211; eSports Gaming WordPress Theme Demo</title>
+	<title>01 Studios</title>
 	<link rel="stylesheet" href="assets/css/7818768271445d57eca33782a1f2270f.css" data-minify="1" />
 	<meta name='robots' content='noindex,nofollow' />
 	<link rel='dns-prefetch' href='//www.googletagmanager.com' />
