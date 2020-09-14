@@ -359,33 +359,94 @@
 										<div class="nk-news-box">
 											<div class="nk-news-box-list">
 												<div class="nano">
-													<div class="nano-content">
+													<div class="nano-content" style="font-size:21px;color:#fff;padding:15px;text-align:justify">
+														<p>
+															01 Studios is a foremost mobile game development company, offering intuitive mobile game development services across different platforms Android, iOS, Windows and Native. Our well versed game developers build unique high end game applications for the users with the focus to deliver a game application with spectacular graphics, HD display, high end processor and other essential attributes.
+														</p>
+													</div>
+													<!-- <div class="" >
+														<img src="assets/images/about_us.png" class="img-responsive" alt="" />
+													</div> -->
+												</div>
+											</div>
+											<div class="nk-news-box-list">
+												<div class="nano">
+													<div class="nano-content" >
 
-
-
-
+														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
 
 													</div>
+													<!-- <div class="" >
+
+													</div> -->
 												</div>
 											</div>
 										</div>
+
 									</div>
 									<h3 class="is-style-squadforce-decorated ghostkit-custom-1IOFOw" style="margin-top:20px;"><span style="color:#dd163b" class="has-inline-color">services</span></h3>
 									<div class="wp-block-lazyblock-squadforce-news-box-list lazyblock-squadforce-news-box-list-Nsd3R">
-										<div class="nk-news-box">
+										<div class="nk-news-box" style="height: 600px;padding:20px;border-bottom:2px solid #dd163b">
+											<div class="nk-news-box-list" >
+												<div class="nano">
+													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;text-align:justify">
+														<h3 style="text-align:center;padding-top:10px">Game Development</h3>
+														<p>We have an enthusiastic team of game developers who enjoy creating interesting and challenging games. Using technical advancements, we develop exuberant games for different platforms. We always target to create the best gaming experience with our innovative ideas and skill set which are loved by the users and they can spend hours on it without getting bored.</p>
+
+														<p>The young minds of our studio themselves are obsessive gamers, therefore they are aware of the needs of the demanding crowd. We develop customized games for different genres and even integrate with advanced features like in-app purchases, advertisements and push-up notifications.</p>
+													</div>
+												</div>
+											</div>
 											<div class="nk-news-box-list">
 												<div class="nano">
 													<div class="nano-content">
-														<h4 >asdasd</h4>	
-
-
-
-
+														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
 													</div>
 												</div>
 											</div>
 										</div>
+										<div class="nk-news-box" style="height: 600px;padding:20px;border-bottom:2px solid #dd163b">
+											<div class="nk-news-box-list">
+												<div class="nano">
+													<div class="nano-content">
+														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="nk-news-box-list" >
+												<div class="nano">
+													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;;text-align:justify">
+														<h3 style="text-align:center;padding-top:10px">UI/UIX</h3>
+														<p>We give equal importance to the user experience as we give to the visual aspect of the product. We first analyze the client’s needs and what they want to deliver to the end-user’s. based on the project understanding we do market research and follow the best design and practice.</p>
+
+														<p>By analyzing the effective ways and means to communicate the product idea of the audience, we smartly structurize the complex project into simplest form. We do this by creating the complex project into its simplest form. We do this by creating a detailed description of the user’s role, the cultural particularities, demographics of the user, and how the product is used and then prioritize the goals and deliver the best output.</p>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<div class="nk-news-box" style="height: 600px;padding:20px">
+											<div class="nk-news-box-list" >
+												<div class="nano">
+													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;text-align:justify">
+														<h3 style="text-align:center;padding-top:10px">Game Development</h3>
+														<p>We have an enthusiastic team of game developers who enjoy creating interesting and challenging games. Using technical advancements, we develop exuberant games for different platforms. We always target to create the best gaming experience with our innovative ideas and skill set which are loved by the users and they can spend hours on it without getting bored.</p>
+
+														<p>The young minds of our studio themselves are obsessive gamers, therefore they are aware of the needs of the demanding crowd. We develop customized games for different genres and even integrate with advanced features like in-app purchases, advertisements and push-up notifications.</p>
+													</div>
+												</div>
+											</div>
+											<div class="nk-news-box-list">
+												<div class="nano">
+													<div class="nano-content">
+														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+
 									</div>
+
 				</main>
 			</div>
 		</div>
