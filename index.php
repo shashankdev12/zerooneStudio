@@ -365,7 +365,8 @@
 														</p>
 													</div>
 													<!-- <div class="" >
-														<img src="assets/images/about_us.png" class="img-responsive" alt="" />
+														<img src="assets/images/developer.jpg" class="img-responsive" alt="" />
+
 													</div> -->
 												</div>
 											</div>
@@ -400,7 +401,7 @@
 											<div class="nk-news-box-list">
 												<div class="nano">
 													<div class="nano-content">
-														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
+														<img src="assets/images/developer.jpg" class="img-fluid" alt="" />
 													</div>
 												</div>
 											</div>
@@ -409,7 +410,7 @@
 											<div class="nk-news-box-list">
 												<div class="nano">
 													<div class="nano-content">
-														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
+														<img src="assets/images/1024-(img-3).jpg" class="img-fluid" alt="" />
 													</div>
 												</div>
 											</div>
@@ -429,7 +430,7 @@
 											<div class="nk-news-box-list" >
 												<div class="nano">
 													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;text-align:justify">
-														<h3 style="text-align:center;padding-top:10px">Game Development</h3>
+														<h3 style="text-align:center;padding-top:10px">Other Services</h3>
 														<p>We have an enthusiastic team of game developers who enjoy creating interesting and challenging games. Using technical advancements, we develop exuberant games for different platforms. We always target to create the best gaming experience with our innovative ideas and skill set which are loved by the users and they can spend hours on it without getting bored.</p>
 
 														<p>The young minds of our studio themselves are obsessive gamers, therefore they are aware of the needs of the demanding crowd. We develop customized games for different genres and even integrate with advanced features like in-app purchases, advertisements and push-up notifications.</p>
@@ -439,7 +440,7 @@
 											<div class="nk-news-box-list">
 												<div class="nano">
 													<div class="nano-content">
-														<img src="assets/images/about_us.png" class="img-fluid" alt="" />
+														<img src="assets/images/1.jpg" class="img-fluid" alt="" />
 													</div>
 												</div>
 											</div>
@@ -543,7 +544,7 @@
 									<div class="ghostkit-twitter-item-content">
 										<div class="ghostkit-twitter-item-meta">
 											<div class="ghostkit-twitter-item-meta-name">
-												<a href="https://twitter.com/nkdevv/" target="_blank"> <strong>nK</strong>  <span>@nkdevv</span>
+												<a href="https://twitter.com/nkdevv/" target="_blank"> <strong>zeroOne</strong>  <span>@gmail.com</span>
 												</a>
 											</div>
 											<div class="ghostkit-twitter-item-meta-date"> <a href="https://twitter.com/nkdevv/status/1248158388078497793" target="_blank">Apr 9</a>
