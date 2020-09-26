@@ -5,12 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="//gmpg.org/xfn/11">
-	<title>SquadForce &#8211; eSports Gaming WordPress Theme Demo</title>
+	<title>01 Studios</title>
 	<link rel="stylesheet" href="assets/css/7818768271445d57eca33782a1f2270f.css" data-minify="1" />
 	<meta name='robots' content='noindex,nofollow' />
 	<link rel='dns-prefetch' href='//www.googletagmanager.com' />
-	<link rel="alternate" type="application/rss+xml" title="SquadForce &raquo; Feed" href="https://wp.nkdev.info/squadforce/feed/" />
-	<link rel="alternate" type="application/rss+xml" title="SquadForce &raquo; Comments Feed" href="https://wp.nkdev.info/squadforce/comments/feed/" />
+
 	<style type="text/css">
 		img.wp-smiley,img.emoji{display:inline!important;
 		            border:none!important;
@@ -157,13 +156,17 @@
 						<img src="assets/images/logo3.png" style="width: 80px; height: auto;" alt="" />
 					</a>
 					<ul id="menu-main-menu" class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">
-						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938"><a target="_blank" href="https://1.envato.market/squadforce-wp-info">About us</a>
+						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938">
+							<a  href="#">About us</a>
 						</li>
-						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938"><a target="_blank" href="https://1.envato.market/squadforce-wp-info">Service</a>
+						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938">
+							<a  href="#">Service</a>
 						</li>
-						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938"><a target="_blank" href="https://1.envato.market/squadforce-wp-info">Portfolio</a>
+						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938">
+							<a  href="#">Portfolio</a>
 						</li>
-						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938"><a target="_blank" href="https://1.envato.market/squadforce-wp-info">Contact us</a>
+						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938">
+							<a  href="#">Contact us</a>
 						</li>
 						<!-- <li id="menu-item-1019" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ghost_menu__item nk-drop-item ghost_menu__item--1019 menu-item-1019"><a href="#">Features</a>
 							<ul class="dropdown sub-menu">
@@ -484,6 +487,7 @@
 						</div>
 					</div>
 				</div>
+<<<<<<< HEAD
 				<div class="col-md-6">
 					<div id="ghostkit_reusable_widget-8" class="nk-widget ghostkit-reusable-widget">
 						<h4 class="nk-widget-title"><span>Latest Posts</span></h4>
@@ -557,6 +561,9 @@
 							</div>
 						</div>
 					</div>
+=======
+
+>>>>>>> 4e9d1a10781074b2da84d619dc96a4bc6cc0e438
 				</div>
 			</div>
 			<div class="nk-gap-3"></div>
