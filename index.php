@@ -394,7 +394,7 @@ ul {
 			<div class="container">
 				<div class="nk-nav-table">
 					<a href="https://wp.nkdev.info/squadforce/" class="nk-nav-logo">
-						<img src="assets/images/logo3.png" style="width: 80px; height: auto;" alt="" />
+						<img src="assets/images/logo.png" style="width: 150px; height: auto;" alt="" />
 					</a>
 					<ul id="menu-main-menu" class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">
 						<li id="menu-item-938" class="menu-item menu-item-type-custom menu-item-object-custom ghost_menu__item ghost_menu__item--938 menu-item-938">
@@ -446,7 +446,7 @@ ul {
 									<div class="wp-block-lazyblock-squadforce-image-slider lazyblock-squadforce-image-slider-Z1ycMOS">
 										<div class="nk-image-slider" data-autoplay="8000">
 											<div class="nk-image-slider-item">
-												<img src="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-11.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-11-150x150.jpg">
+												<img src="assets//images/game-banner.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-11-150x150.jpg">
 												<div class="nk-image-slider-content">
 													<h3 class="h4">As we Passed, I remarked</h3>
 													<p class="text-white">As we passed, I remarked a beautiful church-spire rising above some old elms in the park; and before them, in the midst of a lawn, chimneys covered with ivy, and the windows shining in the sun.</p> <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-hover-color-main-1"> Read More </a>
@@ -549,7 +549,7 @@ ul {
 										<div class="nk-news-box" style="height: 600px;padding:20px;border-bottom:2px solid #dd163b">
 											<div class="nk-news-box-list" >
 												<div class="nano">
-													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;text-align:justify">
+													<div class="nano-content" style="font-size:18px;color:#fff;padding:10px;text-align:justify">
 														<h3 style="text-align:center;padding-top:10px">Game Development</h3>
 														<p>We have an enthusiastic team of game developers who enjoy creating interesting and challenging games. Using technical advancements, we develop exuberant games for different platforms. We always target to create the best gaming experience with our innovative ideas and skill set which are loved by the users and they can spend hours on it without getting bored.</p>
 
@@ -560,7 +560,7 @@ ul {
 											<div class="nk-news-box-list">
 												<div class="nano">
 													<div class="nano-content">
-														<img src="assets/images/developer.jpg" class="img-fluid" alt="" />
+														<img src="assets/images/2--img-1024.png" class="img-fluid" alt="" />
 													</div>
 												</div>
 											</div>
@@ -575,7 +575,7 @@ ul {
 											</div>
 											<div class="nk-news-box-list" >
 												<div class="nano">
-													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;;text-align:justify">
+													<div class="nano-content" style="font-size:18px;color:#fff;padding:10px;;text-align:justify">
 														<h3 style="text-align:center;padding-top:10px">UI/UIX</h3>
 														<p>We give equal importance to the user experience as we give to the visual aspect of the product. We first analyze the client’s needs and what they want to deliver to the end-user’s. based on the project understanding we do market research and follow the best design and practice.</p>
 
@@ -588,7 +588,7 @@ ul {
 										<div class="nk-news-box" style="height: 600px;padding:20px">
 											<div class="nk-news-box-list" >
 												<div class="nano">
-													<div class="nano-content" style="font-size:20px;color:#fff;padding:8px;text-align:justify">
+													<div class="nano-content" style="font-size:18px;color:#fff;padding:10px;text-align:justify">
 														<h3 style="text-align:center;padding-top:10px">Other Services</h3>
 														<p>We have an enthusiastic team of game developers who enjoy creating interesting and challenging games. Using technical advancements, we develop exuberant games for different platforms. We always target to create the best gaming experience with our innovative ideas and skill set which are loved by the users and they can spend hours on it without getting bored.</p>
 
@@ -599,7 +599,7 @@ ul {
 											<div class="nk-news-box-list">
 												<div class="nano">
 													<div class="nano-content">
-														<img src="assets/images/1.jpg" class="img-fluid" alt="" />
+														<img src="assets/images/512-png.png" class="img-fluid" alt="" />
 													</div>
 												</div>
 											</div>
@@ -613,7 +613,9 @@ ul {
 					</div>
 				</div>
 			</div>
+
 			<div class="container mt-5">
+				<h3 class="is-style-squadforce-decorated ghostkit-custom-1IOFOw" style="margin-top:20px;"><span style="color:#dd163b" class="has-inline-color">Our Team</span></h3>
 								 <div class="row my-5">
 										 <div class="col-md-4 col-sm-6">
 												 <div class="box">
