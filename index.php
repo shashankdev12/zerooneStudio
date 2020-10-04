@@ -65,260 +65,266 @@
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wp.nkdev.info/squadforce/wp-includes/wlwmanifest.xml" />
 	<meta name="generator" content="WordPress 5.4" />
 	<meta name="generator" content="WooCommerce 4.0.1" />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-
-
+	<link rel="apple-touch-icon" href="assets/css/style.css"/>
 	<link rel="icon" href="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/11/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" href="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/11/favicon.png" sizes="192x192" />
 	<link rel="apple-touch-icon" href="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/11/favicon.png" />
 	<meta name="msapplication-TileImage" content="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/11/favicon.png" />
 	<style id="kirki-inline-styles"></style>
-	<style >
-	// Ease
-
-$easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
-$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
-$easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizelegibility;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
-}
-
-ul {
-  li {
-    list-style-type: none;
-  }
-}
-
-.slider--teams {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  max-width: 750px;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  .slider--teams__team {
-    position: relative;
-    overflow: hidden;
-  }
-}
-
-#list {
-  position: relative;
-  backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  li {
-    position: relative;
-    display: inline-block;
-    float: left;
-    text-align: center;
-    figure {
-      cursor: pointer;
-      margin: 1em;
-      opacity: 0.5;
-      backface-visibility: hidden;
-      transition: transform 450ms $easeInOutSine, opacity 450ms ease-in-out;
-      transform: scale(0.5) translateZ(0px);
-      &:hover {
-        opacity: 0.8;
-        transform: scale(0.6) translateZ(0px);
-      }
-      &:active {
-        opacity: 1;
-        transform: scale(0.7) translateZ(0px);
-      }
-      > div {
-        border-radius: 5px;
-        position: relative;
-        margin: 2rem auto;
-        width: 120px;
-        height: 120px;
-        overflow: hidden;
-        transform: rotate(45deg) translateZ(0px);
-        > div {
-          background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/953/teams.jpg) no-repeat;
-          background-size: cover;
-          background-position: 0px 0px;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 170px;
-          height: 170px;
-          transform: rotate(-45deg) translate(0%, -70%);
-        }
-      }
-      figcaption {
-        h2 {
-          color: #333;
-          font-size: 1.6rem;
-          font-weight: 800;
-        }
-        p {
-          color: #666;
-          font-size: 0.9rem;
-          font-weight: 400;
-        }
-      }
-    }
-    &:nth-child(1) figure > div > div {
-    background-position: 0px 0px !important;
-  }
-    &:nth-child(2) figure > div > div {
-    background-position: 0px 20% !important;
-  }
-    &:nth-child(3) figure > div > div {
-    background-position: 0px 40% !important;
-  }
-    &:nth-child(4) figure > div > div {
-    background-position: 0px 60% !important;
-  }
-    &:nth-child(5) figure > div > div {
-    background-position: 0px 80% !important;
-  }
-    &:nth-child(6) figure > div > div {
-    background-position: 0px 100% !important;
-  }
-
-  }
-}
-
-.active {
-  opacity: 1 !important;
-  transform: scale(1) translateZ(0px) !important;
-}
-
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    *zoom: 1;
-}
-
-	</style>
 
 	<style>
-		.box{
-		overflow:hidden;
-	 background: #0ebeff;
-	 position: relative;
-	 -webkit-transition: all .35s ease;
-	 transition: all .35s ease
+
+
+	$easeInOutBack: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	$easeInOutSine: cubic-bezier(0.445, 0.050, 0.550, 0.950);
+
+
+	* {
+	  background-color: :none;
+	  margin: 0;
+	  padding: 0;
 	}
-	.box:after,
-	.box:before {
-	 content: "";
-	 width: 100%;
-	 height: 100%;
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-	 background: #ffc107;
-	 border-left: 3px solid #fff;
-	 border-right: 3px solid #fff;
-	 opacity: .9;
-	 z-index: 1;
-	 -webkit-transition: all .35s ease;
-	 transition: all .35s ease
-	}
-	.box img {
-	 height: auto;
-	 width: 100%
-	}
-	.box:before {
-	 -webkit-transform: skew(45deg) translateX(-155%);
-	 transform: skew(45deg) translateX(-155%)
-	}
-	.box:hover:before {
-	 -webkit-transform: skew(45deg) translateX(-55%);
-	 transform: skew(45deg) translateX(-55%)
-	}
-	.box:after {
-	 -webkit-transform: skew(45deg) translateX(155%);
-	 transform: skew(45deg) translateX(155%)
-	}
-	.box:hover:after {
-	 -webkit-transform: skew(45deg) translateX(55%);
-	 transform: skew(45deg) translateX(55%)
-	}
-	.box img {
-	 -webkit-transition: all .35s ease;
-	 transition: all .35s ease
-	}
-	.box:hover img {
-	 opacity: .5
-	}
-	.box .box-content {
-	 position: absolute;
-	 top: 50%;
-	 left: 50%;
-	 opacity: 0;
-	 z-index: 2;
-	 -webkit-transform: translate(-50%, -50%) scale(.5);
-	 transform: translate(-50%, -50%) scale(.5);
-	 -webkit-transition: all .35s ease;
-	 transition: all .35s ease
+	
+
+	*,
+	*:after,
+	*:before {
+	  box-sizing: border-box;
 	}
 
-	.box:hover .box-content {
-	 -webkit-transform: translate(-50%, -50%) scale(1);
-	 transform: translate(-50%, -50%) scale(1);
-	 opacity: 1
+	html {
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  text-rendering: optimizelegibility;
 	}
-	.box .post,
-	.box .title {
-		text-align:center;
-	 font-size: 18px;
-	 font-weight: 600;
-	 letter-spacing: 1px;
-	 text-transform: uppercase;
-	 background: #3c3c3c;
-	 border: 2px solid #fff;
-	 color: #fff;
-	 padding: 15px 20px;
-	 margin: 0
+
+	html,
+	body {
+	  width: 100%;
+	  height: 100%;
 	}
-	.box .post{
-	 text-transform: capitalize
+
+	body {
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 100%;
 	}
-	.box .post {
-	 display: block;
-	 font-size: 14px;
-	 font-weight: 400;
-	 padding: 5px 10px;
-	 margin-top: 15px
+
+	ul {
+	  li {
+	    list-style-type: none;
+	  }
 	}
+
+	.slider--teams {
+	  position: relative;
+	  top: 50%;
+	  left: 50%;
+	  max-width: 750px;
+	  opacity: 0;
+	  transform: translate(-50%, -50%);
+	  .slider--teams__team {
+	    position: relative;
+	    overflow: hidden;
+	  }
+	}
+
+	#list {
+	  position: relative;
+	  backface-visibility: hidden;
+	  transform: translate3d(0,0,0);
+	  li {
+	    position: relative;
+	    display: inline-block;
+	    float: left;
+	    text-align: center;
+	    figure {
+	      cursor: pointer;
+	      margin: 1em;
+	      opacity: 0.5;
+	      backface-visibility: hidden;
+	      transition: transform 450ms $easeInOutSine, opacity 450ms ease-in-out;
+	      transform: scale(0.5) translateZ(0px);
+	      &:hover {
+	        opacity: 0.8;
+	        transform: scale(0.6) translateZ(0px);
+	      }
+	      &:active {
+	        opacity: 1;
+	        transform: scale(0.7) translateZ(0px);
+	      }
+	      > div {
+	        border-radius: 5px;
+	        position: relative;
+	        margin: 2rem auto;
+	        width: 120px;
+	        height: 120px;
+	        overflow: hidden;
+	        transform: rotate(45deg) translateZ(0px);
+	        > div {
+	          background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/953/teams.jpg) no-repeat;
+	          background-size: cover;
+	          background-position: 0px 0px;
+	          position: absolute;
+	          top: 50%;
+	          left: 50%;
+	          width: 170px;
+	          height: 170px;
+	          transform: rotate(-45deg) translate(0%, -70%);
+	        }
+	      }
+	      figcaption {
+	        h2 {
+	          color: #333;
+	          font-size: 1.6rem;
+	          font-weight: 800;
+	        }
+	        p {
+	          color: #666;
+	          font-size: 0.9rem;
+	          font-weight: 400;
+	        }
+	      }
+	    }
+	    &:nth-child(1) figure > div > div {
+	    background-position: 0px 0px !important;
+	  }
+	    &:nth-child(2) figure > div > div {
+	    background-position: 0px 20% !important;
+	  }
+	    &:nth-child(3) figure > div > div {
+	    background-position: 0px 40% !important;
+	  }
+	    &:nth-child(4) figure > div > div {
+	    background-position: 0px 60% !important;
+	  }
+	    &:nth-child(5) figure > div > div {
+	    background-position: 0px 80% !important;
+	  }
+	    &:nth-child(6) figure > div > div {
+	    background-position: 0px 100% !important;
+	  }
+
+	  }
+	}
+
+	.active {
+	  opacity: 1 !important;
+	  transform: scale(1) translateZ(0px) !important;
+	}
+
+	.cf:before,
+	.cf:after {
+	    content: " ";
+	    display: table;
+	}
+
+	.cf:after {
+	    clear: both;
+	}
+
+	.cf {
+	    *zoom: 1;
+	}
+
+
+			.box{
+			overflow:hidden;
+		 background: #0ebeff;
+		 position: relative;
+		 -webkit-transition: all .35s ease;
+		 transition: all .35s ease
+		}
+		.box:after,
+		.box:before {
+		 content: "";
+		 width: 100%;
+		 height: 100%;
+		 position: absolute;
+		 top: 0;
+		 left: 0;
+		 background: #ffc107;
+		 border-left: 3px solid #fff;
+		 border-right: 3px solid #fff;
+		 opacity: .9;
+		 z-index: 1;
+		 -webkit-transition: all .35s ease;
+		 transition: all .35s ease
+		}
+		.box img {
+		 height: auto;
+		 width: 100%
+		}
+		.box:before {
+		 -webkit-transform: skew(45deg) translateX(-155%);
+		 transform: skew(45deg) translateX(-155%)
+		}
+		.box:hover:before {
+		 -webkit-transform: skew(45deg) translateX(-55%);
+		 transform: skew(45deg) translateX(-55%)
+		}
+		.box:after {
+		 -webkit-transform: skew(45deg) translateX(155%);
+		 transform: skew(45deg) translateX(155%)
+		}
+		.box:hover:after {
+		 -webkit-transform: skew(45deg) translateX(55%);
+		 transform: skew(45deg) translateX(55%)
+		}
+		.box img {
+		 -webkit-transition: all .35s ease;
+		 transition: all .35s ease
+		}
+		.box:hover img {
+		 opacity: .5
+		}
+		.box .box-content {
+		 position: absolute;
+		 top: 50%;
+		 left: 50%;
+		 opacity: 0;
+		 z-index: 2;
+		 -webkit-transform: translate(-50%, -50%) scale(.5);
+		 transform: translate(-50%, -50%) scale(.5);
+		 -webkit-transition: all .35s ease;
+		 transition: all .35s ease
+		}
+
+		.box:hover .box-content {
+		 -webkit-transform: translate(-50%, -50%) scale(1);
+		 transform: translate(-50%, -50%) scale(1);
+		 opacity: 1
+		}
+		.box .post,
+		.box .title {
+			text-align:center;
+		 font-size: 18px;
+		 font-weight: 600;
+		 letter-spacing: 1px;
+		 text-transform: uppercase;
+		 background: #3c3c3c;
+		 border: 2px solid #fff;
+		 color: #fff;
+		 padding: 15px 20px;
+		 margin: 0
+		}
+		.box .post{
+		 text-transform: capitalize
+		}
+		.box .post {
+		 display: block;
+		 font-size: 14px;
+		 font-weight: 400;
+		 padding: 5px 10px;
+		 margin-top: 15px
+		}
+
 	</style>
+
 </head>
 
 <body class="home page-template-default page page-id-12 theme-squadforce woocommerce-no-js">
@@ -443,40 +449,41 @@ ul {
 						<div class="col-lg-12">
 							<article id="post-12" class="post-12 page type-page status-publish hentry">
 								<div class="entry-content">
-									<div class="wp-block-lazyblock-squadforce-image-slider lazyblock-squadforce-image-slider-Z1ycMOS">
-										<div class="nk-image-slider" data-autoplay="8000">
-											<div class="nk-image-slider-item">
-												<img src="assets//images/game-banner.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-11-150x150.jpg">
-												<div class="nk-image-slider-content">
-													<h3 class="h4">As we Passed, I remarked</h3>
-													<p class="text-white">As we passed, I remarked a beautiful church-spire rising above some old elms in the park; and before them, in the midst of a lawn, chimneys covered with ivy, and the windows shining in the sun.</p> <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-hover-color-main-1"> Read More </a>
-												</div>
-											</div>
-											<div class="nk-image-slider-item">
-												<img src="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-21.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-21-150x150.jpg">
-												<div class="nk-image-slider-content">
-													<h3 class="h4">He made his passenger captain of one</h3>
-													<p class="text-white">Now the races of these two have been for some ages utterly extinct, and besides to discourse any further of them would not be at all to my purpose. But the concern I have most at heart is for our Corporation of Poets, from whom I am preparing a petition to your Highness, to be subscribed with the names of one&#8230;</p>
-												</div>
-											</div>
-											<div class="nk-image-slider-item">
-												<img src="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-31.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-31-150x150.jpg">
-											</div>
-											<div class="nk-image-slider-item">
-												<img src="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-41.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-41-150x150.jpg">
-												<div class="nk-image-slider-content">
-													<h3 class="h4">At length one of them called out in a clear</h3>
-													<p class="text-white">TJust then her head struck against the roof of the hall: in fact she was now more than nine feet high&#8230;</p> <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-hover-color-main-1"> Read More </a>
-												</div>
-											</div>
-											<div class="nk-image-slider-item">
-												<img src="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-51.jpg" alt="" class="nk-image-slider-img" data-thumb="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-51-150x150.jpg">
-												<div class="nk-image-slider-content">
-													<h3 class="h4">For good, too though, in consequence</h3>
-													<p class="text-white">She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday. The word was appropriate to the moment. My mother was so much worse that Peggotty, coming in with the teaboard and candles, and seeing at a glance how ill she was, &#8211; as Miss Betsey might have done sooner if there had been light enough, &#8211; conveyed her upstairs to her own room with all speed; and immediately dispatched Ham Peggotty, her nephew, who had been for some days past secreted in the house&#8230;</p> <a href="#" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-hover-color-main-1"> Read More </a>
-												</div>
-											</div>
-										</div>
+									<div class="container">
+
+									<div id="myCarousel" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+									<div class="item active">
+									<img src="assets/images/game-banner.jpg" alt="Los Angeles" style="width:100%;">
+									</div>
+
+									<div class="item">
+									<img src="assets//images/game-banner.jpg" alt="Chicago" style="width:100%;">
+									</div>
+
+									<div class="item">
+									<img src="assets//images/game-banner.jpg" alt="New york" style="width:100%;">
+									</div>
+									</div>
+
+									<!-- Left and right controls -->
+									<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+									<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+									<span class="sr-only">Next</span>
+									</a>
+									</div>
 									</div>
 									<div class="ghostkit-grid ghostkit-grid-gap-md ghostkit-custom-1ML7kj">
 										<div class="ghostkit-grid-inner">
@@ -544,6 +551,8 @@ ul {
 										</div>
 
 									</div>
+
+
 									<h3 class="is-style-squadforce-decorated ghostkit-custom-1IOFOw" style="margin-top:20px;"><span style="color:#dd163b" class="has-inline-color">services</span></h3>
 									<div class="wp-block-lazyblock-squadforce-news-box-list lazyblock-squadforce-news-box-list-Nsd3R">
 										<div class="nk-news-box" style="height: 600px;padding:20px;border-bottom:2px solid #dd163b">
@@ -590,9 +599,9 @@ ul {
 												<div class="nano">
 													<div class="nano-content" style="font-size:18px;color:#fff;padding:10px;text-align:justify">
 														<h3 style="text-align:center;padding-top:10px">Other Services</h3>
-														<p>We have an enthusiastic team of game developers who enjoy creating interesting and challenging games. Using technical advancements, we develop exuberant games for different platforms. We always target to create the best gaming experience with our innovative ideas and skill set which are loved by the users and they can spend hours on it without getting bored.</p>
+														<p>It’s has become a need of every business to hire full stack developer with extensive knowledge of backend and front-end development, hence giving momentum to Full Stack. At Dev Technosys, you will find expert Full Stack developers with years of experience and knowledge of development work of server and frontend. Our Full Stack Development services are fit to meet your enterprises every need right from ideation to optimization. Our Professionals of Full Stack development are great at understanding client and enterprise demands and requirements, server and hosting, security and networking and creating projects with bespoke design. Our Full Stack Development Process has been made with precise knowledge of client needs and market demands gained over years of experience. Our Full Stack Development Services include MEAN, Node.JS, Mongo DB, Express.JS, Angular.JS Development, React.JS Development, Rapid.JS and much more.</p>
 
-														<p>The young minds of our studio themselves are obsessive gamers, therefore they are aware of the needs of the demanding crowd. We develop customized games for different genres and even integrate with advanced features like in-app purchases, advertisements and push-up notifications.</p>
+
 													</div>
 												</div>
 											</div>
