@@ -89,7 +89,7 @@
 	  margin: 0;
 	  padding: 0;
 	}
-	
+
 
 	*,
 	*:after,
@@ -256,8 +256,8 @@
 		 transition: all .35s ease
 		}
 		.box img {
-		 height: auto;
-		 width: 100%
+		 max-height: 300px;
+		 width: 100
 		}
 		.box:before {
 		 -webkit-transform: skew(45deg) translateX(-155%);
